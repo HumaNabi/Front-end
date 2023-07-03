@@ -1,0 +1,86 @@
+body{
+    background-color:#4e85c9;
+}
+#container{
+    width: 300px;
+    margin-top: center;
+    margin: auto;
+    text-align: center;
+    
+    
+}
+#header .logo .fa-weibo{
+    font-size: 50px;
+    color: white;
+    position: center;
+
+}
+
+#header h1{
+   font-size: 12px;
+    color: white;
+
+}
+h1{
+    color:white;
+}
+#loginform  .containerfields{
+background-color: white;
+margin-left: 40%;
+margin-right: 40%;
+
+}
+#loginform .containerfields input 
+{ font-family:'Open Sans', sans-serif;
+    width:50%;
+    border: none;
+    font-size: 15px;
+    padding:0px;
+    margin:0px;
+    padding-bottom :18px;
+    padding-top:18px;
+    text-indent:20px;
+    border-radius:10px;
+  }
+  #loginform .containerfields input [type="password"]{
+  border-top:1px solid #ccc;
+  border-radius:0px;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius:6px;
+}
+#loginform input[type="submit"]{
+    font-family: 'Open Sans', sans-serif;
+    width: 350px; /* Adjust the width as desired */
+    display: block;
+    border: none;
+    
+    font-size: 14px ;/* Adjust the font size as desired */
+    font-weight: bold;
+    color: white;
+    margin: 30px auto; /* Center the button horizontally with 10px margin from the top */
+    padding: 10px; /* Adjust the padding as desired */
+    border-radius: 6px;
+    background: darkblue;
+    text-align: center; /* Center the text inside the button */
+}
+    }
+    
+
+    
+}
+#loginform input[type="submit"]:hover{
+    background: rgb(3, 8, 22);
+    cursor: pointer;
+    
+}
+#footer p{
+    color:#041b37;
+    font-size:20x;
+     margin-left: 45%;
+    
+}
+#footer p a{ color:white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
